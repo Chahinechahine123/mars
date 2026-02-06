@@ -13,17 +13,17 @@ export default function CAD() {
     const sectionData = [
     {
         title: "MARS transmission assembly right",
-        image: {cad3}, // Agricultural tech placeholder
+        image: cad3, // Agricultural tech placeholder
         align: "object-center",
     },
     {
         title: "MARS side view assembly",
-        image: {cad1}, // AI/Robotics placeholder
+        image: cad1, // AI/Robotics placeholder
         align: "object-right",
     },
     {
         title: "MARS top assembly",
-        image: {cad2}, // Field/Crop placeholder
+        image: cad2, // Field/Crop placeholder
         align: "object-center",
     },
 ];
