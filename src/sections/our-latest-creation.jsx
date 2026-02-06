@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import SectionTitle from "../components/section-title";
+import im1 from '../assets/spray.png'
+import im2 from '../assets/disease.png'
+import im3 from '../assets/poll.png'
 
 export default function OurLatestCreation() {
     const [isHovered, setIsHovered] = useState(false);
@@ -11,19 +14,19 @@ export default function OurLatestCreation() {
     {
         title: "Precision Spraying System",
         description: "Equipped with a high-capacity 50L tank, the robot utilizes its unique sliding mechanism to reach every leaf and stem. This ensures total crop coverage with zero wasted resources, adapting its reach to the specific geometry of your plants.",
-        image: "/agentix-react/assets/spray.png", // Agricultural tech placeholder
+        image: im1, // Agricultural tech placeholder
         align: "object-center",
     },
     {
         title: "GPU-Accelerated AI Diagnosis",
         description: "Powered by a Jetson Orin, our vision system runs an optimized, GPU-accelerated algorithm for real-time edge computing. Trained on 50,000+ images across 38 disease categories, it detects threats instantly while operating efficiently on low resources.",
-        image: "/agentix-react/assets/disease.png", // AI/Robotics placeholder
+        image: im2, // AI/Robotics placeholder
         align: "object-right",
     },
     {
         title: "Autonomous Pollination",
         description: "Aegis-AG solves the challenge of declining natural pollinators. By utilizing its adaptive height and sliding mechanics, the robot navigates various crop heights to deliver precise, mechanical pollination that maximizes fruit set and yield.",
-        image: "/agentix-react/assets/poll.png", // Field/Crop placeholder
+        image: im3, // Field/Crop placeholder
         align: "object-center",
     },
 ];

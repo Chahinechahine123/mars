@@ -1,5 +1,8 @@
 import SectionTitle from "../components/section-title";
 import { motion } from "framer-motion";
+import c from '../assets/chahine.jpg'
+import r from '../assets/rhyl.jpg'
+import d from '../assets/dave.jpg'
 
 export default function OurTestimonials() {
     const testimonials = [
@@ -7,19 +10,19 @@ export default function OurTestimonials() {
         name: "Med Chahine Bouaziz", 
         role: "AI Engineer", 
         quote: "Developed the core AI architecture, training the YOLOv11m model and optimizing it for real-time inference on edge devices. He also strategically curated the Bill of Materials to ensure industrial performance at a low cost.", 
-        image: "assets/chahine.jpg", 
+        image: c, 
     },
     { 
         name: "David Enkoke", 
         role: "Software Engineer", 
         quote: "Engineered the robot's control systems, including the complex sliding mechanics and high-precision movement algorithms. He ensured the seamless integration between the hardware drivers and the high-level logic.", 
-        image: "assets/dave.jpg", 
+        image: d, 
     },
     { 
         name: "Rhyl Kiio", 
         role: "Design & Documentation Lead", 
         quote: "Heads the 3D structural design of the MARS chassis and sub-systems. He is also responsible for the comprehensive technical documentation and system architecture mapping for the final project rollout.", 
-        image: "assets/rhyl.jpg", 
+        image: r, 
     },
 ];
 

@@ -1,5 +1,10 @@
 import SectionTitle from "../components/section-title";
 import { motion } from "framer-motion";
+import nav from '../assets/nav.png'
+import tslot from '../assets/T-slot.png'
+import nozzle from '../assets/nozzle.png'
+import blower from '../assets/blower.png'
+import jeston from '../assets/jeston.jpg'
 
 const technicalFeatures = [
     {
@@ -17,27 +22,27 @@ const technicalFeatures = [
     High-power BTS7960 H-Bridges (43A) ensure smooth current delivery for loads up to 150kg.
 </span>
         ),
-        image: "assets/nav.png"
+        image: nav
     },
     {
         title: "Adaptive Height & Sliding Mechanism",
         description: "Built on a structural 2020 T-Slot Aluminum frame, this system features a motorized sliding axis that allows the nozzle assembly to traverse the chassis width. The adaptive height mechanism adjusts the vertical clearance of the robot, ensuring the sprayers and sensors maintain an optimal distance from the crop canopy, regardless of the plant's growth stage or variety.",
-        image: "assets/T-slot.png"
+        image: tslot
     },
     {
         title: "High-Pressure Liquid Spray System",
         description: "Driven by a SEAFLO 31-Series Diaphragm Pump (1.5 GPM, 200 PSI), the system delivers 12V-powered high-pressure fluid through TeeJet Even Flat Fan (TP8003E) brass nozzles. The self-priming pump technology ensures a consistent spray pattern capable of reaching several meters, providing deep penetration into dense crop foliage for maximum treatment efficacy.",
-        image: "assets/nozzle.png"
+        image: nozzle
     },
     {
         title: "Pneumatic Pollination Mechanism",
         description: "This system uses a WINSINN 120mm High-Pressure Blower (24V Dual Ball Bearing) to create controlled air depression. By generating a high-velocity air stream through GEMA-compatible non-OEM powder nozzles, the robot aerosolizes pollen powder, simulating natural pollination with industrial precision and higher fruit-set reliability.",
-        image: "assets/blower.png"
+        image: blower
     },
     {
         title: "GPU-Accelerated AI Algorithm",
         description: "Aegis-AG runs a custom YOLOv11m model trained on 50k images across 38 disease categories. To achieve real-time inference on the Jetson Nano, the model was exported to ONNX and quantized from INT16 to INT8. This optimized engine is deployed via a specialized Docker container tailored for Jetson-L4T, enabling GPU-accelerated edge computing with significantly reduced memory footprint.",
-        image: "assets/jeston.jpg"
+        image: jeston
     }
 ];
 

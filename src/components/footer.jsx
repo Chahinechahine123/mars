@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import img2 from '../assets/2.png'
 export default function Footer() {
     return (
         <motion.footer className="px-6 md:px-16 lg:px-24 xl:px-32 w-full text-sm text-slate-400 mt-40"
@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
                 <div className="sm:col-span-2 lg:col-span-1">
                     <a href="#!">
-                    <img  src="assets/2.png" width={100} height={100} alt="logo" />
+                    <img  src={img2} width={100} height={100} alt="logo" />
                 </a>
                     <p className="text-sm/7 mt-6 text-slate-400">
     MARS is an open-source agricultural platform delivering GPU-powered AI diagnosis and precision automation. We provide industrial-grade crop protection and pollination at a fraction of the cost.

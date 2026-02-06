@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import SectionTitle from "../components/section-title";
-import { desc } from "framer-motion/client";
+import cad3 from '../assets/cad3.png'
+import cad2 from '../assets/cad2.png'
+import cad1 from '../assets/cad1.png'
 
 export default function CAD() {
     const [isHovered, setIsHovered] = useState(false);
@@ -11,17 +13,17 @@ export default function CAD() {
     const sectionData = [
     {
         title: "MARS transmission assembly right",
-        image: "assets/cad3.png", // Agricultural tech placeholder
+        image: {cad3}, // Agricultural tech placeholder
         align: "object-center",
     },
     {
         title: "MARS side view assembly",
-        image: "assets/cad1.png", // AI/Robotics placeholder
+        image: {cad1}, // AI/Robotics placeholder
         align: "object-right",
     },
     {
         title: "MARS top assembly",
-        image: "assets/cad2.png", // Field/Crop placeholder
+        image: {cad2}, // Field/Crop placeholder
         align: "object-center",
     },
 ];

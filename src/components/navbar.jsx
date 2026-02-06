@@ -2,6 +2,7 @@ import { useState } from "react";
 import { MenuIcon, XIcon } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import img2 from '../assets/2.png'
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,7 +33,7 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
                 <a href="#!">
-                    <img  src="assets/2.png" width={200} height={350} alt="logo" />
+                    <img  src={img2} width={200} height={350} alt="logo" />
                 </a>
 
                 <div className="hidden lg:flex items-center gap-8 transition duration-500">

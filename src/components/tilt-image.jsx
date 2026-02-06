@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { useMotionValue, useSpring, motion } from 'framer-motion';
-
+import robot from '../assets/robot.png'
 const springValues = {
     damping: 30,
     stiffness: 100,
@@ -52,7 +52,7 @@ export default function TiltedImage({ rotateAmplitude = 3, }) {
             transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
         >
             <motion.div className="relative [transform-style:preserve-3d] w-full max-w-4xl" style={{ rotateX, rotateY }} >
-                <img src="assets/robot.png"
+                <img src={robot}
                     className="w-full rounded-[15px] will-change-transform [transform:translateZ(0)]"
                     alt="hero section showcase"
                 />
