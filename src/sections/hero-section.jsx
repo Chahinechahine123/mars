@@ -35,7 +35,7 @@ export default function HeroSection() {
     viewport={{ once: true }}
     transition={{ type: "spring", stiffness: 240, damping: 70, mass: 1 }}
 >
-    <span className="text-blue-600">MARS</span> <br /> 
+    <span className="text-purple-600">MARS</span> <br /> 
     Precision Ag-Tech for Everyone
 </motion.h1>
             <motion.p className="text-center text-base max-w-lg mt-2"
